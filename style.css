@@ -1,11 +1,3 @@
-h1 {
-    font-size: 100px;
-    color: dodgerblue;
-    font-weight: bold;
-    text-align: center;
-}
-
-
 h1 span:nth-child(1){
     color: #4285f4;
 }
