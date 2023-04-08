@@ -9,9 +9,16 @@
 </head>
     <body>
         <h1><span>S</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span></h1>
-        <form action="https://google.com.au/search" method="GET">
+        
+        <form action="https://google.com/search" method="GET">
+            <table><thead><tr><th>나라이름</th><th>국가 코드</th><th>인터넷 검열지수</th></tr></thead><tbody><tr><td>미국</td><td>US</td><td>22</td></tr><tr><td>영국</td><td>UK</td><td>23</td></tr><tr><td>일본</td><td>JP</td><td>25</td></tr><tr><td>캐나다</td><td>CA</td><td>15</td></tr><tr><td>독일</td><td>DE</td><td>19</td></tr></tbody></table>
             <div class="input-group mb-3 search-bar mx-auto mt-5">
                 <input name="q" type="text" class="form-control rounded-pill" placeholder="검색어를 입력하세요" aria-describedby="button-addon2">
+            </div>
+            <div class="input-group mb-3 search-bar mx-auto mt-5">
+                <input type="text" name="gl" value="us" class="bs" data-bs-toggle="tooltip" title="위치설정(국가코드)">
+                <input type="text" name="hl" value="ko" class="bs" data-bs-toggle="tooltip" title="언어설정(안건드리는거 추천)">
+                <input type="submit" value="검색" class="bs" data-bs-toggle="tooltip" title="검색">
             </div>
         </form>
     </body>
