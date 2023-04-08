@@ -27,9 +27,18 @@ h1 span:nth-child(6){
     color: #ea4335;
 }
 
-body {background: powderblue;}
-
+body {background: white;}
 
 .search-bar {
     width: 500px;
+}
+
+table{
+    width: 30%;
+    border: 1px solid #444444;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #444444;
 }
